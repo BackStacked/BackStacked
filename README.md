@@ -29,7 +29,7 @@ Hi, I'm **Himanshu Singh**, a backend-focused Python developer with strong exper
 
 ### 📫 Contact Me
 
-- GitHub: [github.com/BackdevX](https://github.com/BackStacked)
+- GitHub: [github.com/BackStacked](https://github.com/BackStacked)
 - Email: **Himanshusingh2945@gmail.com**
 
 ---
