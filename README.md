@@ -1,50 +1,54 @@
-# BackStacked
+# 👨‍💻 BackStacked
 
-**Backend Developer | Python Enthusiast | Solana Client Integrator**
-
----
-
-### 👋 About Me
-
-Hi, I'm **Himanshu Singh**, a backend-focused Python developer with strong experience building APIs, automation systems, and blockchain-integrated apps — especially using Solana clients. I focus on writing clean, scalable code and crafting efficient backend solutions.
+**Backend Developer | Python Specialist | Solana Client Integrator**
 
 ---
 
-### 💼 Tech Stack
+## 👋 About Me  
 
-- **Languages**: Python, JavaScript (basic)
-- **Frameworks**: FastAPI, Flask, Django
-- **Blockchain**: Solana Python Client (non-smart contract)
-- **Database**: PostgreSQL, Redis, MongoDB
-- **Other**: REST APIs, WebSockets, AsyncIO
+Hi, I'm **Himanshu Singh** — a backend-focused Python developer passionate about building **scalable APIs, automation systems, and blockchain-integrated applications**.  
 
----
-
-### 🛠 Projects
-
-> *(Coming soon — rebuilding portfolio)*  
-> Cleaning up and preparing high-quality open-source and freelance-ready work.
+I specialize in **FastAPI/Django/Flask** ecosystems and enjoy integrating **Solana clients** for real-world use cases (non-smart contract).  
+My goal is to craft **clean, maintainable, and high-performance backend solutions**.  
 
 ---
 
-### 📫 Contact Me
+## 💻 Tech Stack  
 
-- GitHub: [github.com/BackStacked](https://github.com/BackStacked)
-- Email: **backstackeddev@gmail.com**
-
----
-
-### 🚀 Availability
-
-I'm open for:
-- Freelance Python backend work
-- Solana API integrations (non-smart contract)
-- API/backend architecture consulting
+- **Languages**: Python 🐍 | JavaScript (basic)  
+- **Frameworks**: FastAPI ⚡ | Flask | Django  
+- **Blockchain**: Solana Python Client (non-smart contract)  
+- **Databases**: PostgreSQL | MongoDB | Redis  
+- **Other**: REST APIs | WebSockets | AsyncIO | Automation  
 
 ---
 
-### 🧠 Philosophy
+## 🚀 Projects  
 
-> *“Build clean. Think scalable. Ship fast.”*
+🔹 Open-source contributions and freelance-ready projects coming soon!  
+*(Currently rebuilding portfolio with production-grade samples.)*  
 
-Let’s build something powerful 💡
+---
+
+## 📬 Connect With Me  
+
+- 🌐 GitHub: [BackStacked](https://github.com/BackStacked)  
+- 📧 Email: **backstackeddev@gmail.com**  
+
+---
+
+## 🏗 Availability  
+
+I’m currently open to:  
+
+- 📌 Freelance Python backend work  
+- 📌 Solana API integrations (non-smart contract)  
+- 📌 API/backend architecture consulting  
+
+---
+
+## 💡 Philosophy  
+
+> *"Build clean. Think scalable. Ship fast."*  
+
+⚡ Let’s collaborate and create something powerful!  
