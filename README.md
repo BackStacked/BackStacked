@@ -15,8 +15,8 @@ My goal is to craft **clean, maintainable, and high-performance backend solution
 
 ## 💻 Tech Stack  
 
-- **Languages**: Python 🐍 | JavaScript (basic)  
-- **Frameworks**: FastAPI ⚡ | Flask | Django  
+- **Languages**: Python 🐍 | JavaScript | TypeScript
+- **Frameworks**: FastAPI ⚡ | Flask | Django | Fastify  
 - **Blockchain**: Solana Python Client (non-smart contract)  
 - **Databases**: PostgreSQL | MongoDB | Redis  
 - **Other**: REST APIs | WebSockets | AsyncIO | Automation  
