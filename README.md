@@ -61,6 +61,14 @@ I craft **scalable backend systems** and build **Solana clients** for real-world
 
 ### Blockchain
 ![Solana](https://img.shields.io/badge/Solana_Clients-9945FF?style=for-the-badge&logo=solana&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![BNB Chain](https://img.shields.io/badge/BNB_Chain_(BEP20)-F0B90B?style=for-the-badge&logo=binance&logoColor=black)
+![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
+![Arbitrum](https://img.shields.io/badge/Arbitrum-28A0F0?style=for-the-badge&logo=arbitrum&logoColor=white)
+![Optimism](https://img.shields.io/badge/Optimism-FF0420?style=for-the-badge&logo=optimism&logoColor=white)
+![Avalanche](https://img.shields.io/badge/Avalanche-E84142?style=for-the-badge&logo=avalanche&logoColor=white)
+![Base](https://img.shields.io/badge/Base-0052FF?style=for-the-badge&logo=coinbase&logoColor=white)
+![EVM Compatible](https://img.shields.io/badge/EVM_Compatible-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
 
 </div>
 
