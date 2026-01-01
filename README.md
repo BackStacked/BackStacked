@@ -1,128 +1,182 @@
 <div align="center">
-  
-# Hey there! I'm Himanshu Singh 👋
 
-### `Backend Developer` | `Python Expert` | `TypeScript Enthusiast`
+# 👋 Himanshu Singh
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=Building+robust+backend+systems;REST+APIs+%7C+WebSockets+%7C+AsyncIO;Solana+Client+Development;Always+learning%2C+always+building)](https://git.io/typing-svg)
+### Backend Developer • Python Expert • Blockchain Enthusiast
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&width=700&lines=Building+scalable+backend+systems;REST+APIs+%7C+WebSockets+%7C+AsyncIO;Solana+%2B+EVM+blockchain+development;Turning+ideas+into+production+code)](https://git.io/typing-svg)
 
 <p>
-  <a href="mailto:backstackeddev@gmail.com"><img src="https://img.shields.io/badge/Email-backstackeddev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/BackStacked"><img src="https://img.shields.io/badge/GitHub-BackStacked-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="mailto:backstackeddev@gmail.com">
+    <img src="https://img.shields.io/badge/📧_backstackeddev@gmail.com-EA4335?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="https://github.com/BackStacked">
+    <img src="https://img.shields.io/badge/🐙_BackStacked-181717?style=for-the-badge&logoColor=white"/>
+  </a>
 </p>
 
+![Profile Views](https://komarev.com/ghpvc/?username=BackStacked&color=818CF8&style=flat-square)
+
 </div>
 
 ---
 
-## 🚀 About Me
+## 🎯 What I Build
 
-```python
-class BackendDeveloper:
-    def __init__(self):
-        self.name = "Himanshu Singh"
-        self.role = "Backend Developer"
-        self.languages = ["Python", "TypeScript", "JavaScript", "Rust (Learning)"]
-        self.architecture = ["REST APIs", "WebSockets", "Microservices", "Event-Driven"]
-        self.current_focus = "Solana Client Development"
-    
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together.")
-
-me = BackendDeveloper()
-me.say_hi()
+```typescript
+const developer = {
+  name: "Himanshu Singh",
+  role: "Backend Architect",
+  languages: ["Python", "TypeScript", "JavaScript", "Rust"],
+  specialties: {
+    backend: ["REST APIs", "WebSockets", "Microservices", "Event-Driven Architecture"],
+    blockchain: ["Solana", "EVM Chains", "DeFi Protocols"],
+    databases: ["PostgreSQL", "MongoDB", "Redis"],
+    focus: "High-performance async systems"
+  },
+  motto: "Clean code, scalable architecture, real-world impact"
+};
 ```
 
-I craft **scalable backend systems** and build **Solana clients** for real-world applications. Passionate about clean architecture, async programming, and turning complex problems into elegant solutions.
+I specialize in **backend systems that scale** and **blockchain integrations that work**. From REST APIs to WebSocket servers, from database optimization to Solana client development—I build the infrastructure that powers modern applications.
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Technology Arsenal
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Languages
-![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-Proficient-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Proficient-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-Learning-000000?style=for-the-badge&logo=rust&logoColor=white)
+### Core Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-### Backend & APIs
-![REST API](https://img.shields.io/badge/REST_APIs-Expert-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-Expert-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![AsyncIO](https://img.shields.io/badge/AsyncIO-Expert-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-Expert-FF6F00?style=for-the-badge&logo=ansible&logoColor=white)
+### Backend Stack
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![AsyncIO](https://img.shields.io/badge/AsyncIO-4B8BBE?style=flat-square&logo=python&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-FF6F00?style=flat-square&logo=postman&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
 
 ### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-### Blockchain
-![Solana](https://img.shields.io/badge/Solana_Clients-9945FF?style=for-the-badge&logo=solana&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![BNB Chain](https://img.shields.io/badge/BNB_Chain_(BEP20)-F0B90B?style=for-the-badge&logo=binance&logoColor=black)
-![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
-![Arbitrum](https://img.shields.io/badge/Arbitrum-28A0F0?style=for-the-badge&logo=arbitrum&logoColor=white)
-![Optimism](https://img.shields.io/badge/Optimism-FF0420?style=for-the-badge&logo=optimism&logoColor=white)
-![Avalanche](https://img.shields.io/badge/Avalanche-E84142?style=for-the-badge&logo=avalanche&logoColor=white)
-![Base](https://img.shields.io/badge/Base-0052FF?style=for-the-badge&logo=coinbase&logoColor=white)
-![EVM Compatible](https://img.shields.io/badge/EVM_Compatible-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
+### Blockchain Ecosystems
+![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+![EVM](https://img.shields.io/badge/EVM_Compatible-627EEA?style=flat-square&logo=ethereum&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary>🔗 <b>Supported Blockchain Networks</b></summary>
+<br>
+
+**Layer 1**
+- Ethereum • BNB Chain • Avalanche • Polygon • Solana
+
+**Layer 2**
+- Arbitrum • Optimism • Base
+
+**Focus**: Building robust clients for DeFi protocols, token operations, and blockchain data indexing
+
+</details>
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=BackStacked&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=818CF8&icon_color=818CF8&text_color=C9D1D9&ring_color=818CF8" alt="GitHub Stats" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=BackStacked&theme=react&hide_border=true&background=0D1117&stroke=818CF8&ring=818CF8&fire=F97316&currStreakLabel=818CF8" alt="GitHub Streak" width="49%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BackStacked&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=818CF8&text_color=C9D1D9&langs_count=8" alt="Top Languages" width="49%" />
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Expertise Breakdown
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### ⚡ Backend Development
+Building production-ready APIs with proper authentication, rate limiting, and error handling
+
+</td>
+<td width="33%" align="center">
+
+### 🔄 Real-time Systems
+WebSocket servers, event streaming, and async processing pipelines
+
+</td>
+<td width="33%" align="center">
+
+### 🔗 Blockchain Integration
+Solana clients, EVM interactions, token operations, and DeFi protocols
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌱 Current Learning Path
+
+```python
+learning_roadmap = {
+    "mastering": ["Rust systems programming", "Advanced Redis patterns"],
+    "exploring": ["Microservices orchestration", "Event-driven architecture"],
+    "next_up": ["Kubernetes", "GraphQL federations"]
+}
+```
+
+---
+
+## 💡 Philosophy
+
+> **"Write code that speaks for itself, build systems that scale effortlessly, and create solutions that make a difference."**
+
+I believe in:
+- **Clean Architecture** over quick hacks
+- **Type Safety** over runtime surprises  
+- **Documentation** that developers actually read
+- **Testing** that catches bugs before users do
+
+---
+
+## 📬 Get In Touch
+
+I'm always interested in challenging backend projects, blockchain integrations, or just geeking out about system design.
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BackStacked&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BackStacked&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" alt="Top Languages" height="170"/>
+
+[![Email](https://img.shields.io/badge/Email-backstackeddev%40gmail.com-818CF8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:backstackeddev@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-BackStacked-818CF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BackStacked)
+
+**Open to freelance opportunities and interesting collaborations**
+
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BackStacked&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=F97316&currStreakLabel=6366F1" alt="GitHub Streak"/>
-</div>
-
----
-
-## 🎯 What I Do
-
-| Area | Description |
-|------|-------------|
-| **Backend Development** | Building robust, scalable server-side applications |
-| **API Design** | RESTful APIs & real-time WebSocket implementations |
-| **Async Programming** | High-performance systems with AsyncIO |
-| **Automation** | Scripts and tools that make life easier |
-| **Solana Clients** | Non-smart contract applications for Solana blockchain |
-
----
-
-## 🌱 Currently Learning
-
-- 🦀 **Rust** - Systems programming & performance optimization
-- 📊 **Advanced Database Patterns** - SQL & NoSQL optimization
-- ⚡ **Redis** - Caching strategies & real-time data structures
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-  
-If you're looking for a dedicated backend developer or want to collaborate on exciting projects, feel free to reach out!
-
-[![Email](https://img.shields.io/badge/📧_Email_Me-backstackeddev%40gmail.com-6366F1?style=for-the-badge)](mailto:backstackeddev@gmail.com)
-
-</div>
-
 ---
 
 <div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=BackStacked&color=6366F1&style=for-the-badge&label=PROFILE+VIEWS)
 
-*"Code is like humor. When you have to explain it, it's bad."* – Cory House
+*Last updated: January 2026*
+
+**⭐ If you find my work interesting, drop a star on my repos!**
 
 </div>
