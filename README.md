@@ -64,11 +64,11 @@ A real-time delivery network. A Rust relay (axum, tokio) holds a WebSocket open 
 ### Recently shipped
 
 <!-- feed:start -->
-- `2026-10-05` [**balloon-bot**](https://github.com/BackStacked/balloon-bot)
+- `2026-10-09` [**CricketPulse**](https://github.com/BackStacked/CricketPulse) · 1st place, GDG Raipur Agentic Premier League hackathon 2026. Real-time IPL backend: Redis pub/sub…
+- `2026-10-05` [**balloon-bot**](https://github.com/BackStacked/balloon-bot) · Telegram bot that auto-replies to trigger words with any kind of message. TypeScript + grammY.
 - `2026-10-05` [**ltc-replay**](https://github.com/SwapzyCC/ltc-replay) · Durable ZMQ tap and replay service for a Litecoin Core node. Journals rawtx and hashblock, keeps…
 - `2026-10-03` [**btc-replay**](https://github.com/SwapzyCC/btc-replay) · Durable ZMQ tap and replay service for a Bitcoin Core node. Journals rawtx and hashblock, keeps its…
 - `2026-10-01` [**swapzone-sdk**](https://github.com/SwapzyCC/swapzone-sdk) · Unofficial, fully typed TypeScript client for the Swapzone exchange aggregator API. Zero…
-- `2026-09-29` [**stealthex-sdk**](https://github.com/SwapzyCC/stealthex-sdk) · Unofficial, fully typed, zero-dependency TypeScript client for the StealthEX exchange API v4
 <!-- feed:end -->
 
 <details>
