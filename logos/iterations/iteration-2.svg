@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <g id="background">
+    <rect width="512" height="512" rx="112" fill="#09090b"/>
+  </g>
+  <g id="icon" fill="#fafafa">
+    <rect id="stem" x="136" y="96" width="64" height="320" rx="8"/>
+    <path id="unit-top" d="M216 96 H276 A60 60 0 0 1 336 156 V172 A60 60 0 0 1 276 232 H216 Z"/>
+    <path id="unit-bottom" d="M216 248 H306 A70 70 0 0 1 376 318 V346 A70 70 0 0 1 306 416 H216 Z"/>
+    <g id="details" fill="#09090b">
+      <circle cx="256" cy="164" r="16"/>
+      <circle cx="256" cy="332" r="16"/>
+    </g>
+  </g>
+</svg>

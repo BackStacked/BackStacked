@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <g id="background">
+    <rect width="512" height="512" rx="112" fill="#09090b"/>
+  </g>
+  <g id="icon" fill="#fafafa">
+    <path d="M60 112 L116 112 L276 400 L220 400 Z"/>
+    <path d="M148 112 L204 112 L364 400 L308 400 Z"/>
+    <path d="M236 112 L292 112 L452 400 L396 400 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <g id="background">
+    <rect width="512" height="512" rx="112" fill="#09090b"/>
+  </g>
+  <g id="icon">
+    <g id="block-3">
+      <path fill="#fafafa" d="M256 268 L325.3 308 L256 348 L186.7 308 Z"/>
+      <path fill="#a1a1aa" d="M186.7 308 L256 348 L256 428 L186.7 388 Z"/>
+      <path fill="#52525b" d="M256 348 L325.3 308 L325.3 388 L256 428 Z"/>
+    </g>
+    <g id="block-2">
+      <path fill="#fafafa" d="M256 176 L325.3 216 L256 256 L186.7 216 Z"/>
+      <path fill="#a1a1aa" d="M186.7 216 L256 256 L256 336 L186.7 296 Z"/>
+      <path fill="#52525b" d="M256 256 L325.3 216 L325.3 296 L256 336 Z"/>
+    </g>
+    <g id="block-1">
+      <path fill="#fafafa" d="M256 84 L325.3 124 L256 164 L186.7 124 Z"/>
+      <path fill="#a1a1aa" d="M186.7 124 L256 164 L256 244 L186.7 204 Z"/>
+      <path fill="#52525b" d="M256 164 L325.3 124 L325.3 204 L256 244 Z"/>
+    </g>
+  </g>
+</svg>

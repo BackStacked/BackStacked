@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <g id="background">
+    <rect width="512" height="512" rx="112" fill="#09090b"/>
+  </g>
+  <g id="icon" fill="#fafafa">
+    <path fill-rule="evenodd" d="M92 112 H236 C296 112 328 144 328 196 C328 228 312 250 288 260 C320 270 340 296 340 332 C340 388 304 416 240 416 H92 Z M148 160 H230 C258 160 272 174 272 198 C272 222 258 236 230 236 H148 Z M148 282 H236 C266 282 284 298 284 324 C284 352 266 368 236 368 H148 Z"/>
+    <rect id="cursor" x="364" y="380" width="56" height="36"/>
+  </g>
+</svg>
