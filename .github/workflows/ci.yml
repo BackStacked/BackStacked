@@ -1,0 +1,43 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Typecheck, test, render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - name: Render every image from the test fixture
+        run: node scripts/build-images.ts dist --data test/fixtures/profile.json
+      - name: Check the README
+        run: npm run check
+
+  links:
+    name: Links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # LinkedIn and npm answer bots with 999/403; output-branch images are
+      # checked by the profile workflow right after it builds them.
+      - uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: >-
+            --no-progress
+            --exclude "linkedin\.com"
+            --exclude "npmjs\.com"
+            --exclude "raw\.githubusercontent\.com/BackStacked/BackStacked/output"
+            README.md

@@ -1,0 +1,95 @@
+{
+  "user": "BackStacked",
+  "owners": ["BackStacked", "SwapzyCC", "Grabzy-CC"],
+  "style": {
+    "sans": "Space Grotesk",
+    "mono": "Space Mono",
+    "accent": { "light": "#09090b", "dark": "#fafafa" }
+  },
+  "banner": {
+    "name": "Himanshu Singh",
+    "headline": "Co-founder @ ShopNeko · Backend & Web3",
+    "location": "Raipur, India · UTC+5:30",
+    "ventures": [
+      { "name": "Swapzy", "status": "live", "tone": "live" },
+      { "name": "ShopNeko", "status": "pre-launch", "tone": "soon" },
+      { "name": "Grabzy", "status": "building", "tone": "building" }
+    ],
+    "chains": [
+      { "name": "Ethereum", "icon": "ethereum" },
+      { "name": "BNB Chain", "icon": "bnbchain" },
+      { "name": "Polygon", "icon": "polygon" },
+      { "name": "Solana", "icon": "solana" },
+      { "name": "Litecoin", "icon": "litecoin" },
+      { "name": "Bitcoin", "icon": "bitcoin" }
+    ]
+  },
+  "stack": [
+    {
+      "label": "Languages",
+      "items": [
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "Rust", "icon": "rust" }
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        { "name": "Node.js", "icon": "nodedotjs" },
+        { "name": "Fastify", "icon": "fastify" },
+        { "name": "GraphQL", "icon": "graphql" },
+        { "name": "Socket.IO", "icon": "socketdotio" },
+        { "name": "discord.js", "icon": "discorddotjs" },
+        { "name": "Telegram", "icon": "telegram" }
+      ]
+    },
+    {
+      "label": "Data",
+      "items": [
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "Redis", "icon": "redis" },
+        { "name": "Elasticsearch", "icon": "elasticsearch" },
+        { "name": "SQLite", "icon": "sqlite" }
+      ]
+    },
+    {
+      "label": "Chains",
+      "items": [
+        { "name": "Ethereum", "icon": "ethereum" },
+        { "name": "BNB Chain", "icon": "bnbchain" },
+        { "name": "Polygon", "icon": "polygon" },
+        { "name": "Solana", "icon": "solana" },
+        { "name": "Bitcoin", "icon": "bitcoin" },
+        { "name": "Litecoin", "icon": "litecoin" }
+      ]
+    },
+    {
+      "label": "Frontend",
+      "items": [
+        { "name": "Next.js", "icon": "nextdotjs" },
+        { "name": "React", "icon": "react" },
+        { "name": "Tailwind CSS", "icon": "tailwindcss" }
+      ]
+    },
+    {
+      "label": "Infra",
+      "items": [
+        { "name": "Docker", "icon": "docker" },
+        { "name": "GitHub Actions", "icon": "githubactions" },
+        { "name": "Prometheus", "icon": "prometheus" },
+        { "name": "Cloudflare", "icon": "cloudflare" }
+      ]
+    }
+  ],
+  "languages": {
+    "exclude": ["HTML", "CSS", "SCSS", "Jupyter Notebook", "Vim Snippet", "Dockerfile", "Shell", "PowerShell", "Batchfile", "Makefile"],
+    "sizeWeight": 0.5,
+    "countWeight": 0.5,
+    "limit": 5
+  },
+  "feed": {
+    "limit": 5,
+    "exclude": ["BackStacked/BackStacked", "BackStacked/life-exceptions", "SwapzyCC/.github"]
+  },
+  "npmMaintainer": "backstacked"
+}

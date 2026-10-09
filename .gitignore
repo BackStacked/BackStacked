@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# Logo working files (concepts, iterations, PNG exports). The final logo lives in assets/brand.
+logos/
+
+# Local agent tooling, not part of the profile
+.agents/
+.claude/
+skills-lock.json

@@ -1,0 +1,21 @@
+{
+  "name": "backstacked-profile",
+  "private": true,
+  "description": "Builds the images and feed on github.com/BackStacked.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "node scripts/build-images.ts",
+    "feed": "node scripts/update-feed.ts",
+    "check": "node scripts/check-readme.ts",
+    "icons": "node scripts/vendor-icons.ts",
+    "typecheck": "tsc",
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "typescript": "^7.0.2"
+  }
+}
