@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { readFile, stat } from "node:fs/promises";
 import { join } from "node:path";
 import { parseArgs } from "node:util";
@@ -8,7 +9,7 @@ import { checkReadme, referencedOutputs } from "./lib/readme.ts";
 const { values } = parseArgs({ options: { dist: { type: "string" } } });
 const config = await loadConfig();
 const readme = await readFile("README.md", "utf8");
-const problems = checkReadme(readme, config.user);
+const problems = checkReadme(readme, config.user, existsSync);
 
 if (values.dist) {
   for (const file of referencedOutputs(readme)) {

@@ -31,13 +31,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      # LinkedIn and npm answer bots with 999/403; output-branch images are
-      # checked by the profile workflow right after it builds them.
+      # LinkedIn and npm answer bots with 999/403. Links into this repo are
+      # checked against the checkout by `npm run check`, and output-branch
+      # images by the profile workflow right after it builds them.
       - uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
           args: >-
             --no-progress
             --exclude "linkedin\.com"
             --exclude "npmjs\.com"
+            --exclude "github\.com/BackStacked/BackStacked/blob"
             --exclude "raw\.githubusercontent\.com/BackStacked/BackStacked/output"
             README.md

@@ -8,8 +8,12 @@ export function referencedOutputs(readme: string): string[] {
   return [...new Set([...readme.matchAll(RAW)].map((m) => m[4] ?? ""))];
 }
 
-/** Everything that would make the profile render badly. Returns one line per problem. */
-export function checkReadme(readme: string, user: string): string[] {
+/**
+ * Everything that would make the profile render badly. Returns one line per problem.
+ * `exists` answers for files in this repo, so links into it are checked locally
+ * instead of against github.com, which throttles link checkers.
+ */
+export function checkReadme(readme: string, user: string, exists: (path: string) => boolean = () => true): string[] {
   const problems: string[] = [];
 
   for (const [tag] of readme.matchAll(/<img\b[^>]*>/gi)) {
@@ -44,6 +48,11 @@ export function checkReadme(readme: string, user: string): string[] {
   ];
   for (const link of links) {
     if (link && !/^(https?:|mailto:|#)/.test(link)) problems.push(`relative link breaks on the profile page: ${link}`);
+  }
+
+  const self = new RegExp(`https://github\\.com/${user}/${user}/blob/main/([^"')\\s#?]+)`, "g");
+  for (const [, path] of readme.matchAll(self)) {
+    if (path && !exists(path)) problems.push(`links to ${path}, which is not in the repo`);
   }
 
   if (/\{\{|\bTODO\b|lorem ipsum/i.test(readme)) problems.push("placeholder text left in README.md");

@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { test } from "node:test";
 import { END, START } from "../scripts/lib/feed.ts";
 import { outputFiles } from "../scripts/lib/outputs.ts";
@@ -11,7 +11,13 @@ const picture = (name: string, alt = "alt text") =>
 const valid = `${picture("banner")}\n${START}\n${END}\n`;
 
 test("the real README passes", () => {
-  assert.deepEqual(checkReadme(readFileSync("README.md", "utf8"), "BackStacked"), []);
+  assert.deepEqual(checkReadme(readFileSync("README.md", "utf8"), "BackStacked", existsSync), []);
+});
+
+test("catches links to files this repo doesn't have", () => {
+  const link = (path: string) => `<a href="https://github.com/BackStacked/BackStacked/blob/main/${path}">x</a>`;
+  const problems = checkReadme(`${valid}${link("profile.config.json")}${link("gone.yml")}`, "BackStacked", existsSync);
+  assert.deepEqual(problems, ["links to gone.yml, which is not in the repo"]);
 });
 
 test("a minimal README passes", () => {
