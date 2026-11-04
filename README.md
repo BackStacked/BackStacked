@@ -64,11 +64,11 @@ A real-time delivery network. A Rust relay (axum, tokio) holds a WebSocket open 
 ### Recently shipped
 
 <!-- feed:start -->
+- `2026-11-03` [**grabzy-chromium**](https://github.com/Grabzy-CC/grabzy-chromium) · Grabzy.CC browser: ungoogled-chromium that keeps the claimer connected. Windows, macOS, Linux.
+- `2026-11-03` [**.github**](https://github.com/Grabzy-CC/.github) · Grabzy.CC organization profile
 - `2026-11-02` [**btc-replay**](https://github.com/SwapzyCC/btc-replay) · Durable ZMQ tap and replay service for a Bitcoin Core node. Journals rawtx and hashblock, keeps its…
 - `2026-11-02` [**ltc-replay**](https://github.com/SwapzyCC/ltc-replay) · Durable ZMQ tap and replay service for a Litecoin Core node. Journals rawtx and hashblock, keeps…
 - `2026-11-01` [**stealthex-sdk**](https://github.com/SwapzyCC/stealthex-sdk) · Unofficial, fully typed, zero-dependency TypeScript client for the StealthEX exchange API v4
-- `2026-11-01` [**swapzone-sdk**](https://github.com/SwapzyCC/swapzone-sdk) · Unofficial, fully typed TypeScript client for the Swapzone exchange aggregator API. Zero…
-- `2026-10-26` [**balloon-bot**](https://github.com/BackStacked/balloon-bot) · Telegram bot that auto-replies to trigger words with any kind of message. TypeScript + grammY.
 <!-- feed:end -->
 
 <details>
