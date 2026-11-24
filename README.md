@@ -64,9 +64,9 @@ A real-time delivery network. A Rust relay (axum, tokio) holds a WebSocket open 
 ### Recently shipped
 
 <!-- feed:start -->
+- `2026-11-24` [**grabzy-chromium**](https://github.com/Grabzy-CC/grabzy-chromium) · Grabzy.CC browser: ungoogled-chromium that keeps the claimer connected. Windows, macOS, Linux.
 - `2026-11-23` [**btc-replay**](https://github.com/SwapzyCC/btc-replay) · Durable ZMQ tap and replay service for a Bitcoin Core node. Journals rawtx and hashblock, keeps its…
 - `2026-11-23` [**ltc-replay**](https://github.com/SwapzyCC/ltc-replay) · Durable ZMQ tap and replay service for a Litecoin Core node. Journals rawtx and hashblock, keeps…
-- `2026-11-21` [**grabzy-chromium**](https://github.com/Grabzy-CC/grabzy-chromium) · Grabzy.CC browser: ungoogled-chromium that keeps the claimer connected. Windows, macOS, Linux.
 - `2026-11-15` [**swapzone-sdk**](https://github.com/SwapzyCC/swapzone-sdk) · Unofficial, fully typed TypeScript client for the Swapzone exchange aggregator API. Zero…
 - `2026-11-15` [**stealthex-sdk**](https://github.com/SwapzyCC/stealthex-sdk) · Unofficial, fully typed, zero-dependency TypeScript client for the StealthEX exchange API v4
 <!-- feed:end -->
